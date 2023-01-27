@@ -25,6 +25,9 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+.main {
+  max-width: 100%;
+}
 .navigation-links a {
   margin: 20px;
 }
@@ -63,4 +66,18 @@ p {
 }
 .email:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .email {
+    font-size: 18px;
+  }
 }
