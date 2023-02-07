@@ -3,9 +3,14 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+html,
 body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
   margin-top: 66px;
-  margin-bottom: 20px;
   font-family: "Roboto Slab", serif;
 }
 h1,
@@ -29,10 +34,9 @@ p {
 }
 footer {
   background-color: #f5f2fe;
-  margin-top: 50px;
+  margin-top: 100px;
   padding: 20px 0;
-  position: relative;
-  bottom: -20px;
+  flex: 0 0 auto;
 }
 footer i {
   color: black;
@@ -44,6 +48,7 @@ footer i {
 }
 .main {
   max-width: 100%;
+  flex: 1 0 auto;
 }
 .logo {
   max-width: 40px;
@@ -71,7 +76,7 @@ footer i {
   padding-top: 90px;
 }
 .about {
-  margin-top: 100px;
+  margin-top: 80px;
   padding: 16px;
 }
 .about-text {
